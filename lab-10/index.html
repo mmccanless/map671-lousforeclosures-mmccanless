@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8 />
+  <title>Foreclosures in Louisvile, KY</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #d3d3d3;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      color: #3d3d3d;
+    }
+
+    section {
+      width: 80%;
+      margin: 10px auto;
+    }
+
+    h1 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 2.5em;
+      /* The em unit. 2.5x the current size */
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      color: gray;
+      font-size: 1.25em;
+      letter-spacing: .04em;
+    }
+
+    p {
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+
+    a {
+      color: #005daa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 10px 0
+    }
+
+    #map {
+      width: 100%;
+      margin: 0px auto;
+
+    }
+
+    .max-image-width {
+      width: 100%;
+    }
+
+
+    .linkbox {
+      margin: 3px 0 20px 0;
+      display: block;
+      font-weight: 300;
+    }
+
+    hr {
+      border: 0px;
+      border-bottom: 1px solid #3d3d3d;
+      padding-top: 20px;
+    }
+
+    /* Use float property to make two-column layout. */
+
+    .first-column {
+      float: left;
+      width: 48%;
+      padding-right: 20px;
+    }
+
+    .column {
+      float: left;
+      width: 48%;
+    }
+
+    /* Clear floats after the columns */
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* When browser is 800px wide or less */
+
+    @media screen and (max-width: 800px) {
+      .first-column,
+      .column {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Add map to top of page and make it stretch to fill browser window. -->
+  <img class="max-image-width" src="/graphics/jeff_foreclosure_1200px.png">
+
+  <!-- Create a two column layout for map information. -->
+  <section>
+    <a href="/graphics/jeff_foreclosure_8000px.png" class="linkbox">Full screen version</a>
+
+    <h1>Foreclosures per 1000 people in Louisville, KY</h1>
+    <h2>Authored by: mmccanless</h2>
+
+    <div class="row">
+      
+      <!-- First column, the left half -->
+      <div class="first-column">
+        <p>Foreclosures are an important indicator of housing insecurity. Across the city of Louisville, majority non-white neighborhoods-- with Black or African-American neighborhoods being the primary non-white demographic-- are impacted more by foreclosures. In instances where majority white neighborhoods experience high rates of foreclosure such as the two tracts in Louisville's West End, these sites should be monitored for intensifiying processes of gentrification. See attached for a geoJSON of <a href="/geojsons/merged-foreclosures-2016-20.gpkg">foreclosures</a> in Louisville.</p>
+      </div>
+      
+      <!-- Second column, the right half -->
+      <div class="column">
+        <!-- Challenge map -->
+        <img class="max-image-width" src="/graphics/table3.png">
+        <p class="linkbox">Table of census tracts with highest rates of foreclosure</p>
+
+      </div>
+    </div>
+
+    <h3>Map details</h3>
+    <p>This map was made using data from the U.S. Census Bureau and the Jefferson County circuit court. It shows rates of foreclosure per 1000 people between the years of 2016-2020. The inset maps show rates of foreclosure in majority white and majority non-white neighborhoods in Louisville, KY.</p>
+
+    <p>
+      University of Kentucky New Maps Plus, Fall 2021.
+    </p>
+    <hr>
+    <ul>
+			<li>See my projects on GitHub: <a href="https://github.com/mmccanless">mmccanlesss</a></li>
+			<li>Follow me on twitter: <a href="https://twitter.com/geostonks">@geostonks</a></li>
+			<li>Visit my <a href='https://github.com/mmccanless'>mapping portfolio</a>.</li>
+    </ul>
+  </section>
+
+</body>
+</html>
