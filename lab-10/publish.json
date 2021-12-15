@@ -1,0 +1,7 @@
+ {
+    "title": "Foreclosures per 1000 people in Louisville, KY",
+    "info": "This map was made using data from the U.S. Census Bureau and the Jefferson County circuit court. It shows rates of foreclosure per 1000 people between the years of 2016-2020. The inset maps show rates of foreclosure in majority white and majority non-white neighborhoods in Louisville, KY.", 
+    "coordinates": [34.5, -94.5],
+    "author": "mmccanless", 
+    "link": "https://github.com/mmccanless" 
+}
